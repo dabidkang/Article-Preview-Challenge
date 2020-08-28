@@ -1,0 +1,148 @@
+body {
+  background-color: hsl(210, 46%, 95%);
+  font-family: "Manrope", sans-serif;
+  font-size: 13px;
+}
+
+.container-fluid {
+  background-color: white;
+  border-radius: 25px;
+  margin: 30%;
+  max-height: 40%;
+  max-width: 40%;
+}
+
+.row {
+  position: relative;
+}
+
+.drawers-img {
+  border-radius: 25px 0 0 25px;
+  padding: 0;
+}
+
+.text-block {
+  padding: 35px 40px 10px;
+  position: relative;
+}
+
+.heading {
+  color: hsl(217, 19%, 35%);
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.description {
+  color: hsl(214, 17%, 51%);
+  font-weight: 500;
+  line-height: 1.75;
+  margin: 10px 0;
+}
+
+.user-profile {
+  display: flex;
+  margin: 20px 0;
+}
+
+.avatar-img {
+  border-radius: 50%;
+  float: left;
+  margin: 0 20px 0 0;
+  height: 45px;
+  width: 45px;
+}
+
+.caption > .heading {
+  font-size: 13px;
+  padding: 3px 0 0;
+}
+
+.caption > .description {
+  color: hsl(212, 23%, 69%);
+  margin: 0;
+  padding: 0;
+}
+
+span {
+  background-color: hsl(210, 46%, 95%);
+  border-radius: 50%;
+  float: right;
+  line-height: 25px;
+  height: 30px;
+  width: 30px;
+  margin: 10px 10px 0 auto;
+  text-align: center;
+  z-index: 2;
+}
+
+.icon-on-focus {
+  background-color: hsl(214, 17%, 51%);
+}
+
+.popover {
+  background-color: hsl(217, 19%, 35%);
+  padding: 0 20px;
+  text-align: center;
+  top: -20px !important;
+}
+
+.popover-content {
+  align-items: center;
+  color: hsl(212, 23%, 69%);
+  display: flex;
+  font-size: 14px;
+}
+
+.popover-content p {
+  padding: 15px 10px 0;
+}
+
+.social-icon {
+  padding: 0 0 0 15px;
+}
+
+.share-icon {
+}
+
+.share-bar-mobile {
+  border-radius: 0 0 25px 25px;
+  display: none;
+  padding-left: 30px;
+  position: absolute;
+  height: 12%;
+  width: 100%;
+  top: 88%;
+}
+
+.attribution {
+  font-size: 11px; text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 576px) {
+  .container-fluid {
+    margin: 10%;
+    max-height: 80%;
+    max-width: 80%;
+  }
+
+  .drawers-img {
+    border-radius: 25px 25px 0 0;
+    max-height: auto;
+  }
+
+  .text-block {
+    max-height: 60%;
+  }
+
+  .user-profile {
+    margin: 25px 0 10px;
+  }
+
+  .popover-content {
+    background-color: hsl(217, 19%, 35%);
+  }
+}
